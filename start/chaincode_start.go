@@ -66,7 +66,7 @@ func (t *SimpleChaincode) Query(stub shim.ChaincodeStubInterface, function strin
 	// Handle different functions
 	if function == "dummy_query" {											//read a variable
 		fmt.Println("hi there " + function)						//error
-		var msg = "Estou de ferias"		
+		var msg = "Estou de ferias a partir de hoje!!!"		
 		return []byte(msg), nil; 
 		//return nil, nil;
 	}
